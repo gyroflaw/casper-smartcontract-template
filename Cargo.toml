@@ -2,7 +2,6 @@
 members = [
     "contract",
     "tests",
-    "wasm"
 ]
 
 default-members = [

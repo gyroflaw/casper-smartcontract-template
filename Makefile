@@ -5,6 +5,8 @@ prepare:
 build-contract:
 	cd contract && cargo build --release --target wasm32-unknown-unknown
 	wasm-strip contract/target/wasm32-unknown-unknown/release/contract.wasm 2>/dev/null | true
+make-symbolic:
+	ln -s ../../target/wasm32-unknown-unknown/release/contract.wasm contract.wasm
 
 test: build-contract
 	cd tests && cargo test
