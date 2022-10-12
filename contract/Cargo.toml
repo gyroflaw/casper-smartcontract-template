@@ -1,5 +1,5 @@
 [package]
-name = "contract"
+name = "hello-contract"
 version = "0.1.0"
 edition = "2018"
 
@@ -9,8 +9,8 @@ casper-types = "1.5.0"
 contract-utils = { path = "../utils/contract-utils" }
 
 [[bin]]
-name = "contract"
-path = "src/main.rs"
+name = "hello_contract"
+path = "bin/contract.rs"
 bench = false
 doctest = false
 test = false
