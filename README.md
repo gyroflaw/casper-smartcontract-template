@@ -127,6 +127,7 @@ _If your project used this template please create a PR._
 
 ## Roadmap
 
+- [ ] Remove old test case and write new one.
 - [ ] Add Changelog
 - [ ] Add casper-js-sdk integration with NTCL and testnet.
 
